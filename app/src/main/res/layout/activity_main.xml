@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/ttt8"
+    tools:context="com.example.kasunchinthaka.mapcodex.MainActivity">
+
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="170dp"
+        android:hint="name@example.com"
+        android:id="@+id/edit1"
+        android:background="#ffffff"
+/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edit2"
+        android:hint="Password"
+        android:background="#ffffff"
+        android:inputType="textPassword"
+        android:layout_below="@+id/edit1"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button1"
+        android:onClick="login"
+        android:background="@drawable/ttt9"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_below="@+id/edit2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="FORGOT PASSWORD?"
+        android:layout_below="@+id/button1"
+        android:textColor="#32cd32"
+        android:textStyle="bold"
+        android:id="@+id/text11"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_below="@+id/text11"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="80dp"
+        android:background="@drawable/ttt6"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:onClick="reg"
+
+        android:textColor="#000000"/>
+</RelativeLayout>
